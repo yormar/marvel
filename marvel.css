@@ -1,0 +1,317 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.marvel-at-home__container{
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.marvel-at-home__item{
+
+    display: inline-block;
+    width: 24%;
+    margin: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.marvel-at-home__item__img{
+    height: 80px;
+    overflow: hidden;
+    
+}
+
+.marvel-at-home__item__img img{
+    height: 100%;
+    
+}
+
+
+.marvel-at-home__item__category{
+    color: #999;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.marvel-at-home__item__title{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.marvel-at-home__item__title:hover{
+    color: red;
+}
+
+
+.marvel-podcasts__container{
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.marvel-podcasts__item{
+
+    display: inline-block;
+    width: 24%;
+    margin: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.marvel-podcasts__item__img{
+    height: 80px;
+    overflow: hidden;
+    
+}
+
+.marvel-podcasts__item__img img{
+    height: 100%;
+    
+}
+
+.marvel-podcasts__item__category{
+    color: #999;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    cursor: pointer;
+}
+
+.marvel-podcasts__item__title{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.marvel-podcasts__item__title:hover{
+    color: red;
+}
+
+.free-digital__banner{
+    position: relative;
+    color: white;
+}
+
+.free-digital__banner__container{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.free-digital__banner__content{
+    margin: 0em auto;
+    max-width: 1024px;
+    width: 100%;
+
+}
+
+.free-digital__banner__logo img{
+    width: auto;
+}
+
+.free-digital__banner__title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.free-digital__banner__description{
+    width: 50%;
+}
+
+.free-digital__banner__btn{
+    display: inline-block;
+    padding: 5px 16px;
+    border: 2px solid white;
+}
+
+.free-digital__container{
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    overflow-x:scroll ;
+    position: relative;
+    top:-15px;
+    background-color: white;
+    padding:10px 5px 5px 5px;
+}
+
+.free-digital__item{
+
+    display: inline-block;
+    width: 16%;
+    margin: 0;
+    box-sizing: border-box;;
+    vertical-align: top;
+}
+
+.free-digital__item__img{
+    height: 80px;
+    overflow: hidden;
+    
+}
+
+.free-digital__item__img img{
+    height: 100%;
+    
+}
+
+.free-digital__item__category{
+    color:#999;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.free-digital__item__title{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.free-digital__item__title:hover{
+    color: red;
+}
+
+
+.marvel-unlimited__banner{
+    position: relative;
+    color: white;
+}
+
+.marvel-unlimited__banner__container{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.marvel-unlimited__banner__content{
+    margin: 0em auto;
+    max-width: 1024px;
+    width: 100%;
+
+}
+
+.marvel-unlimited__banner__logo img{
+    width: auto;
+}
+
+.marvel-unlimited__banner__title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.marvel-unlimited__banner__description{
+    width: 50%;
+}
+
+.marvel-unlimited__banner__btn{
+    display: inline-block;
+    padding: 5px 16px;
+    border: 2px solid white;
+}
+
+
+.lastest-box__container{
+    margin:0 auto;
+    max-width: 1024px;
+}
+
+.the-lastest{
+    display: inline-block;
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.the-lastest__item{
+    border-bottom: 1px solid #f2f2f2;
+   padding:10px 0;
+}
+
+.the-lastest__item__img,
+.the-lastest__item__content{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.the-lastest__item__content{
+    padding-left: 10px;
+}
+
+.the-lastest__item__category{
+    margin: 0;
+    color: #999;
+}
+
+.the-lastest__item__title{
+    font-weight: bold;
+}
+
+.the-lastest__item__time{
+    color: #999
+}
+
+.the-lastest__item__title:hover{
+    color: red;
+}
+
+.hype-box{
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.hype-box__title, 
+.hype-box__description{
+    text-align: center;
+}
+
+.hype-box__item{
+    border-top: 1px solid #f2f2f2;
+   padding:10px 0;
+}
+
+.hype-box__item__img,
+.hype-box__item__content{
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+.hype-box__item__content{
+    padding-left: 05px;
+}
+
+.hype-box__item__category{
+    margin: 0;
+    color: #999;
+}
+
+.hype-box__item__title{
+    font-weight: bold;
+}
+
+.hype-box__item__title:hover{
+    color: red;
+}
+
+
