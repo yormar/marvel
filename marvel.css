@@ -40,6 +40,7 @@ img{
     text-transform: uppercase;
     letter-spacing: 1px;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .marvel-at-home__item__title{
@@ -53,51 +54,6 @@ img{
     color: red;
 }
 
-
-.marvel-podcasts__container{
-    margin: 0 auto;
-    max-width: 1024px;
-    width: 100%;
-}
-
-.marvel-podcasts__item{
-
-    display: inline-block;
-    width: 24%;
-    margin: 0;
-    box-sizing: border-box;
-    vertical-align: top;
-}
-
-.marvel-podcasts__item__img{
-    height: 80px;
-    overflow: hidden;
-    
-}
-
-.marvel-podcasts__item__img img{
-    height: 100%;
-    
-}
-
-.marvel-podcasts__item__category{
-    color: #999;
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: .5px;
-    cursor: pointer;
-}
-
-.marvel-podcasts__item__title{
-    font-size: 15px;
-    font-weight: bold;
-    text-align: left;
-    cursor: pointer;
-}
-
-.marvel-podcasts__item__title:hover{
-    color: red;
-}
 
 .free-digital__banner{
     position: relative;
@@ -142,7 +98,6 @@ img{
     margin: 0 auto;
     max-width: 1024px;
     width: 100%;
-    overflow-x:scroll ;
     position: relative;
     top:-15px;
     background-color: white;
@@ -158,11 +113,11 @@ img{
     vertical-align: top;
 }
 
-.free-digital__item__img{
+/* .free-digital__item__img{
     height: 80px;
     overflow: hidden;
     
-}
+} */
 
 .free-digital__item__img img{
     height: 100%;
@@ -175,6 +130,7 @@ img{
     letter-spacing: 1px;
     text-transform: uppercase;
     cursor: pointer;
+    font-weight: bold;
 }
 
 .free-digital__item__title{
@@ -185,6 +141,52 @@ img{
 }
 
 .free-digital__item__title:hover{
+    color: red;
+}
+
+.marvel-podcasts__container{
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+}
+
+.marvel-podcasts__item{
+
+    display: inline-block;
+    width: 24%;
+    margin: 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+.marvel-podcasts__item__img{
+    height: 80px;
+    overflow: hidden;
+    
+}
+
+.marvel-podcasts__item__img img{
+    height: 100%;
+    
+}
+
+.marvel-podcasts__item__category{
+    color: #999;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.marvel-podcasts__item__title{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.marvel-podcasts__item__title:hover{
     color: red;
 }
 
@@ -228,6 +230,69 @@ img{
     border: 2px solid white;
 }
 
+.marvel-unlimited__container{
+    margin: 0 auto;
+    max-width: 1024px;
+    width: 100%;
+    position: relative;
+    top:-20px;
+    background-color: white;
+    padding:10px 5px 5px 5px;
+    display: flex;
+}
+
+.marvel-unlimited__item{
+    width: 16%;
+    margin: 5px;
+    box-sizing: border-box;;
+    vertical-align: top;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.marvel-unlimited__item:hover .marvel-unlimited__item__category{
+    color: red; 
+}
+
+.marvel-unlimited__item:hover .marvel-unlimited__item__img{
+    top: -10px;
+    transition: 0.3s ease all;
+}
+
+/* .marvel-unlimited__item:hover{
+    background-color: red;
+} */
+
+.marvel-unlimited__item__img{
+    position: relative;
+    top: 0;
+    
+}
+
+.marvel-unlimited__item__img img{
+    height: 100%;
+    
+}
+
+.marvel-unlimited__item__category{
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 15px;
+}
+
+.marvel-unlimited__item__time{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+    color: #999;
+
+}
+
 
 .lastest-box__container{
     margin:0 auto;
@@ -242,7 +307,7 @@ img{
 
 .the-lastest__item{
     border-bottom: 1px solid #f2f2f2;
-   padding:10px 0;
+    padding:10px 0;
 }
 
 .the-lastest__item__img,
@@ -259,6 +324,7 @@ img{
 .the-lastest__item__category{
     margin: 0;
     color: #999;
+    font-weight: bold;
 }
 
 .the-lastest__item__title{
@@ -266,7 +332,8 @@ img{
 }
 
 .the-lastest__item__time{
-    color: #999
+    color: #999;
+    font-weight: bold;
 }
 
 .the-lastest__item__title:hover{
@@ -304,6 +371,7 @@ img{
 .hype-box__item__category{
     margin: 0;
     color: #999;
+    font-weight: bold;
 }
 
 .hype-box__item__title{
