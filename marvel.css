@@ -382,4 +382,50 @@ img{
     color: red;
 }
 
+.promo{
+    background-color: black;
 
+}
+
+
+.promo__container{
+    margin: 0 auto;
+    max-width: 1024px;
+    padding:10px 5px 5px 5px;
+    display: flex;
+}
+
+.promo__container__item{
+    width: 48%;
+    margin: 5px;
+    box-sizing: border-box;;
+    flex-direction: column;
+    text-align: center;
+}
+
+.promo__content__category{
+    color:#e62429;
+    margin: 20px 0;
+    letter-spacing: 3px;
+}
+
+.promo__content__title{
+    color: white;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.promo__content__btn{
+    padding: 5px 16px;
+    border: 2px solid white;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    background-color: red;
+    font-weight: bold;
+}
+
+.promo__content__terms{
+    color: white;
+    margin-top: 80px;
+}
