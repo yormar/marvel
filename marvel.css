@@ -7,6 +7,50 @@ img{
     width: 100%;
 }
 
+.slider{
+    position: relative;
+    height: 350px;
+}
+
+.slider__img{
+    background-image: url("img/slider.jpg");
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.slider__main{
+    /* position:absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+.slider__content{
+    position: absolute;
+    width: 100%;
+    max-width: 1024px;
+    margin: auto;
+    height: 100%;
+    padding: 55px 0;
+}
+
+.slider__content__container{
+    width: 60%;
+    margin: auto;
+}
+
+.slider__content__img{
+    max-width: 300px;
+}
+
+
 .marvel-at-home__container{
     margin: 0 auto;
     max-width: 1024px;
@@ -387,7 +431,6 @@ img{
 
 }
 
-
 .promo__container{
     margin: 0 auto;
     max-width: 1024px;
@@ -429,3 +472,5 @@ img{
     color: white;
     margin-top: 80px;
 }
+
+
